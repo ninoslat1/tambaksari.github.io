@@ -1,0 +1,143 @@
+
+/*Navbar*/
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif;
+    font-size: 32px;
+}
+
+.button{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+/*Jumbotron*/
+.jumbotron {
+    width: 100%;
+    position: relative;
+    text-align: left;
+    background-color: #5cb85c;
+}
+
+.jumbotron h1{
+    color: white;
+    margin-top: -700px;
+    font-size: 64px;
+    font-weight: 200;
+    margin-left: 50px;
+}
+
+.jumbotron h1 span{
+    font-weight: 400;
+}
+
+.jumbotron h2{
+    color: white;
+    font-weight: 100;
+    margin-left: 50px;
+}
+
+.jumbotron p{
+    margin-left: 50px;
+    color: white;
+    font-size: 15px;
+}
+
+/*Section*/
+
+#profil-desa {
+    background-color: #5cb85c;
+    color: white;
+    margin-top: auto;
+}
+
+#potensi-desa .card, #produk .card{
+    border-style: none;
+}
+
+#produk, #pengaduan{
+    background-color: #5cb85c;
+}
+
+#pengaduan, #pengaduan .form-text{
+    color: white;
+}
+
+#pengaduan .btn-outline-success{
+    border-radius: 10px;
+    transition: 0.5;
+}
+
+#pengaduan .btn-outline-success:hover{  
+    transform: scale(1.1);
+}
+
+#produk h2{
+    color: white;
+}
+
+#footer a{
+    color: black;
+    text-decoration: none;
+}
+
+#footer a:hover{
+    color: #5cb85c;
+    text-decoration: underline;
+    cursor: pointer;
+}
+/*Utility*/
+.button {
+    text-transform: uppercase;
+    border-radius: 40px;
+    margin-top: 20px;
+}
+
+.button-desa{
+    border-radius: 40px;
+    margin: 20px 50px 225px 50px;
+
+}
+
+/*Desktop Ver.*/
+@media (min-width: 992px){
+
+.navbar-brand,
+.nav-link{
+    color: white !important;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 10);
+}
+
+.nav-link {
+    margin-right: 30px;
+    margin-top: 20px;
+    }
+
+.nav-link:hover::after{
+    content: '';
+    display: block;
+    border-bottom: 3px solid teal;
+    width: 50%;
+    margin: auto;
+    padding: 0 5px 0 0;
+    margin-bottom: -8px;
+    }
+
+    .jumbotron{
+        margin-top: -110px;
+    }
+
+    .button-desa{
+        margin-bottom: 325px;
+    }
+
+    #profil-desa {
+        background-color: #5cb85c;
+        color: white;
+        margin-top: -20px;
+    }
+}
