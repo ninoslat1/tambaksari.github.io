@@ -1,3 +1,6 @@
+header{
+    overflow-x: hidden;
+}
 /*Navbar*/
 .navbar {
     position: relative;
@@ -6,7 +9,11 @@
 
 .navbar-brand {
     font-family: 'Poppins', sans-serif;
-    font-size: 32px;
+    font-size: 30px;
+}
+
+.nav-link{
+    margin-left: -75px;
 }
 
 .button{
@@ -20,7 +27,6 @@
     position: relative;
     text-align: left;
     background-color: #5cb85c;
-    overflow-x: hidden;
 }
 
 .jumbotron h1{
@@ -118,6 +124,7 @@
 .nav-link {
     margin-right: 30px;
     margin-top: 20px;
+    margin-left: 0px;
     }
 
 .nav-link:hover::after{
