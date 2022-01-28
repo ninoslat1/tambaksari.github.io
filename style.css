@@ -92,6 +92,7 @@ header{
 #footer a{
     color: black;
     text-decoration: none;
+    justify-content: center;
 }
 
 #footer a:hover{
